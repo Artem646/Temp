@@ -1,299 +1,498 @@
-[
-  {
-    "name": "T-34",
-    "nation": "ussr",
-    "level": 5,
-    "type": "mediumTank",
-    "armor": 45,
-    "gun": "76 mm L-11",
-    "speed": 56,
-    "cost": 356700,
-    "photo": "t34.png"
+{
+  "status": "ok",
+  "meta": {
+    "count": 902,
+    "page_total": 10,
+    "total": 902,
+    "limit": 100,
+    "page": null
   },
-  {
-    "name": "AMX 50 100",
-    "nation": "france",
-    "level": 8,
-    "type": "heavyTank",
-    "armor": 90,
-    "gun": "90 mm F3",
-    "speed": 51,
-    "cost": 2552500,
-    "photo": "amx50100.png"
-  },
-  {
-    "name": "A-20",
-    "nation": "ussr",
-    "level": 5,
-    "type": "lightTank",
-    "armor": 20,
-    "gun": "45 mm 20K",
-    "speed": 72,
-    "cost": 334000,
-    "photo": "a20.png"
-  },
-  {
-    "name": "Hummel",
-    "nation": "germany",
-    "level": 6,
-    "type": "SPG",
-    "armor": 30,
-    "gun": "15 cm s.F.H. 13 L/17",
-    "speed": 42,
-    "cost": 930000,
-    "photo": "hummel.png"
-  },
-  {
-    "name": "Patton the Tank",
-    "nation": "usa",
-    "level": 9,
-    "type": "mediumTank",
-    "armor": 152,
-    "gun": "120 mm Gun T123E6C",
-    "speed": 40,
-    "cost": 0,
-    "photo": "pattonthetank.png"
-  },
-  {
-    "name": "Object 777 Version II",
-    "nation": "ussr",
-    "level": 9,
-    "type": "heavyTank",
-    "armor": 132,
-    "gun": "122 mm M62-T2",
-    "speed": 40,
-    "cost": 0,
-    "photo": "object777versionii.png"
-  },
-  {
-    "name": "Tiger 131",
-    "nation": "germany",
-    "level": 6,
-    "type": "heavyTank",
-    "armor": 100,
-    "gun": "8,8 cm Kw.K. 36 L/56",
-    "speed": 40,
-    "cost": 0,
-    "photo": "tiger131.png"
-  },
-  {
-    "name": "T20",
-    "nation": "usa",
-    "level": 7,
-    "type": "mediumTank",
-    "armor": 64,
-    "gun": "76 mm Gun M1A1E20",
-    "speed": 56,
-    "cost": 1340000,
-    "photo": "t20.png"
-  },
-  {
-    "name": "O-I Experimental",
-    "nation": "japan",
-    "level": 5,
-    "type": "heavyTank",
-    "armor": 125,
-    "gun": "12 cm Short Barrel Gun",
-    "speed": 25,
-    "cost": 445000,
-    "photo": "oiexperimental.png"
-  },
-  {
-    "name": "110",
-    "nation": "china",
-    "level": 8,
-    "type": "heavyTank",
-    "armor": 120,
-    "gun": "122 mm 37-122JT",
-    "speed": 40,
-    "cost": 2600000,
-    "photo": "110.png"
-  },
-  {
-    "name": "Projekt ION",
-    "nation": "czech",
-    "level": 8,
-    "type": "heavyTank",
-    "armor": 100,
-    "gun": "130 mm Škoda R 14",
-    "speed": 35,
-    "cost": 0,
-    "photo": "projektion.png"
-  },
-  {
-    "name": "KV-2",
-    "nation": "ussr",
-    "level": 6,
-    "type": "heavyTank",
-    "armor": 75,
-    "gun": "122 mm U-11",
-    "speed": 35,
-    "cost": 920000,
-    "photo": "kv2.png"
-  },
-  {
-    "name": "TS-54",
-    "nation": "usa",
-    "level": 8,
-    "type": "heavyTank",
-    "armor": 102,
-    "gun": "94 mm British DB Gun",
-    "speed": 40,
-    "cost": 0,
-    "photo": "ts54.png"
-  },
-  {
-    "name": "Object 701",
-    "nation": "ussr",
-    "level": 8,
-    "type": "heavyTank",
-    "armor": 120,
-    "gun": "122 mm D-25TB",
-    "speed": 30,
-    "cost": 0,
-    "photo": "object701.png"
-  },
-  {
-    "name": "AMX 13 105 AM mle. 50",
-    "nation": "france",
-    "level": 5,
-    "type": "SPG",
-    "armor": 40,
-    "gun": "105 mm court mle. 1934 S",
-    "speed": 60,
-    "cost": 410000,
-    "photo": "amx13105ammle50.png"
-  },
-  {
-    "name": "SU-8",
-    "nation": "ussr",
-    "level": 6,
-    "type": "SPG",
-    "armor": 30,
-    "gun": "122 mm Howitzer A-19",
-    "speed": 48,
-    "cost": 932000,
-    "photo": "su8.png"
-  },
-  {
-    "name": "MT-25",
-    "nation": "ussr",
-    "level": 6,
-    "type": "lightTank",
-    "armor": 45,
-    "gun": "45 mm VT-43M",
-    "speed": 62,
-    "cost": 880000,
-    "photo": "mt25.png"
-  },
-  {
-    "name": "AMX 12 t",
-    "nation": "france",
-    "level": 6,
-    "type": "lightTank",
-    "armor": 50,
-    "gun": "75 mm SA49",
-    "speed": 60,
-    "cost": 875000,
-    "photo": "amx12t.png"
-  },
-  {
-    "name": "Comet",
-    "nation": "uk",
-    "level": 7,
-    "type": "mediumTank",
-    "armor": 76,
-    "gun": "75 mm Gun Mk. V",
-    "speed": 52,
-    "cost": 1350500,
-    "photo": "comet.png"
-  },
-  {
-    "name": "WZ-111 model 1-4",
-    "nation": "china",
-    "level": 9,
-    "type": "heavyTank",
-    "armor": 120,
-    "gun": "122 mm D-25T",
-    "speed": 50,
-    "cost": 3500000,
-    "photo": "wz111model14.png"
-  },
-  {
-    "name": "T-34 with L-11",
-    "nation": "ussr",
-    "level": 4,
-    "type": "mediumTank",
-    "armor": 45,
-    "gun": "76 mm L-11",
-    "speed": 54,
-    "cost": 0,
-    "photo": "t34withl11.png"
-  },
-  {
-    "name": "KV-13",
-    "nation": "ussr",
-    "level": 7,
-    "type": "mediumTank",
-    "armor": 120,
-    "gun": "76 mm ZiS-5",
-    "speed": 50,
-    "cost": 1375500,
-    "photo": "kv13.png"
-  },
-  {
-    "name": "Somua SAu 40",
-    "nation": "france",
-    "level": 4,
-    "type": "AT-SPG",
-    "armor": 36,
-    "gun": "75 mm APX mle. 1938",
-    "speed": 37,
-    "cost": 110000,
-    "photo": "somuasau40.png"
-  },
-  {
-    "name": "AMX 50 B",
-    "nation": "france",
-    "level": 10,
-    "type": "heavyTank",
-    "armor": 170,
-    "gun": "120 mm SA46",
-    "speed": 65,
-    "cost": 6100000,
-    "photo": "amx50b.png"
-  },
-  {
-    "name": "BT-2",
-    "nation": "ussr",
-    "level": 2,
-    "type": "lightTank",
-    "armor": 15,
-    "gun": "37 mm B-3",
-    "speed": 55,
-    "cost": 3500,
-    "photo": "bt2.png"
-  },
-  {
-    "name": "A46",
-    "nation": "uk",
-    "level": 6,
-    "type": "lightTank",
-    "armor": 32,
-    "gun": "OQF 77 mm HV Mk. I",
-    "speed": 60,
-    "cost": 0,
-    "photo": "a46.png"
-  },
-  {
-    "name": "Type 71",
-    "nation": "japan",
-    "level": 10,
-    "type": "heavyTank",
-    "armor": 165,
-    "gun": "120 mm Gun Type 71",
-    "speed": 40,
-    "cost": 6100000,
-    "photo": "type71.png"
+  "data": {
+    "1": {
+      "name": "T-34",
+      "nation": "ussr",
+      "price_credit": 356700,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 45
+          }
+        },
+        "gun": {
+          "name": "76 mm L-11"
+        },
+        "speed_forward": 56
+      },
+      "tier": 5,
+      "type": "mediumTank"
+    },
+    "3137": {
+      "name": "AMX 50 100",
+      "nation": "france",
+      "price_credit": 2552500,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 90
+          }
+        },
+        "gun": {
+          "name": "90 mm F3"
+        },
+        "speed_forward": 51
+      },
+      "tier": 8,
+      "type": "heavyTank"
+    },
+    "2049": {
+      "name": "A-20",
+      "nation": "ussr",
+      "price_credit": 334000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 20
+          }
+        },
+        "gun": {
+          "name": "45 mm 20K"
+        },
+        "speed_forward": 72
+      },
+      "tier": 5,
+      "type": "lightTank"
+    },
+    "273": {
+      "name": "Hummel",
+      "nation": "germany",
+      "price_credit": 930000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 30
+          }
+        },
+        "gun": {
+          "name": "15 cm s.F.H. 13 L/17"
+        },
+        "speed_forward": 42
+      },
+      "tier": 6,
+      "type": "SPG"
+    },
+    "50465": {
+      "name": "Patton the Tank",
+      "nation": "usa",
+      "price_credit": null,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 152
+          }
+        },
+        "gun": {
+          "name": "120 mm Gun T123E6C"
+        },
+        "speed_forward": 40
+      },
+      "tier": 9,
+      "type": "mediumTank"
+    },
+    "44545": {
+      "name": "Object 777 Version II",
+      "nation": "ussr",
+      "price_credit": null,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 132
+          }
+        },
+        "gun": {
+          "name": "122 mm M62-T2"
+        },
+        "speed_forward": 40
+      },
+      "tier": 9,
+      "type": "heavyTank"
+    },
+    "49169": {
+      "name": "Tiger 131",
+      "nation": "germany",
+      "price_credit": null,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 100
+          }
+        },
+        "gun": {
+          "name": "8,8 cm Kw.K. 36 L/56"
+        },
+        "speed_forward": 40
+      },
+      "tier": 6,
+      "type": "heavyTank"
+    },
+    "1569": {
+      "name": "T20",
+      "nation": "usa",
+      "price_credit": 1340000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 64
+          }
+        },
+        "gun": {
+          "name": "76 mm Gun M1A1E20"
+        },
+        "speed_forward": 56
+      },
+      "tier": 7,
+      "type": "mediumTank"
+    },
+    "5729": {
+      "name": "O-I Experimental",
+      "nation": "japan",
+      "price_credit": 445000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 125
+          }
+        },
+        "gun": {
+          "name": "12 cm Short Barrel Gun"
+        },
+        "speed_forward": 25
+      },
+      "tier": 5,
+      "type": "heavyTank"
+    },
+    "2865": {
+      "name": "110",
+      "nation": "china",
+      "price_credit": 2600000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 120
+          }
+        },
+        "gun": {
+          "name": "122 mm 37-122JT"
+        },
+        "speed_forward": 40
+      },
+      "tier": 8,
+      "type": "heavyTank"
+    },
+    "7025": {
+      "name": "Projekt ION",
+      "nation": "czech",
+      "price_credit": null,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 100
+          }
+        },
+        "gun": {
+          "name": "130 mm Škoda R 14"
+        },
+        "speed_forward": 35
+      },
+      "tier": 8,
+      "type": "heavyTank"
+    },
+    "10497": {
+      "name": "KV-2",
+      "nation": "ussr",
+      "price_credit": 920000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 75
+          }
+        },
+        "gun": {
+          "name": "122 mm U-11"
+        },
+        "speed_forward": 35
+      },
+      "tier": 6,
+      "type": "heavyTank"
+    },
+    "34849": {
+      "name": "TS-54",
+      "nation": "usa",
+      "price_credit": null,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 102
+          }
+        },
+        "gun": {
+          "name": "94 mm British DB Gun"
+        },
+        "speed_forward": 40
+      },
+      "tier": 8,
+      "type": "heavyTank"
+    },
+    "65537": {
+      "name": "Object 701",
+      "nation": "ussr",
+      "price_credit": null,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 120
+          }
+        },
+        "gun": {
+          "name": "122 mm D-25TB"
+        },
+        "speed_forward": 30
+      },
+      "tier": 8,
+      "type": "heavyTank"
+    },
+    "4161": {
+      "name": "AMX 13 105 AM mle. 50",
+      "nation": "france",
+      "price_credit": 410000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 40
+          }
+        },
+        "gun": {
+          "name": "105 mm court mle. 1934 S"
+        },
+        "speed_forward": 60
+      },
+      "tier": 5,
+      "type": "SPG"
+    },
+    "5633": {
+      "name": "SU-8",
+      "nation": "ussr",
+      "price_credit": 932000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 30
+          }
+        },
+        "gun": {
+          "name": "122 mm Howitzer A-19"
+        },
+        "speed_forward": 48
+      },
+      "tier": 6,
+      "type": "SPG"
+    },
+    "16641": {
+      "name": "MT-25",
+      "nation": "ussr",
+      "price_credit": 880000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 45
+          }
+        },
+        "gun": {
+          "name": "45 mm VT-43M"
+        },
+        "speed_forward": 62
+      },
+      "tier": 6,
+      "type": "lightTank"
+    },
+    "6465": {
+      "name": "AMX 12 t",
+      "nation": "france",
+      "price_credit": 875000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 50
+          }
+        },
+        "gun": {
+          "name": "75 mm SA49"
+        },
+        "speed_forward": 60
+      },
+      "tier": 6,
+      "type": "lightTank"
+    },
+    "5457": {
+      "name": "Comet",
+      "nation": "uk",
+      "price_credit": 1350500,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 76
+          }
+        },
+        "gun": {
+          "name": "75 mm Gun Mk. V"
+        },
+        "speed_forward": 52
+      },
+      "tier": 7,
+      "type": "mediumTank"
+    },
+    "2097": {
+      "name": "WZ-111 model 1-4",
+      "nation": "china",
+      "price_credit": 3500000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 120
+          }
+        },
+        "gun": {
+          "name": "122 mm D-25T"
+        },
+        "speed_forward": 50
+      },
+      "tier": 9,
+      "type": "heavyTank"
+    },
+    "33281": {
+      "name": "T-34 with L-11",
+      "nation": "ussr",
+      "price_credit": null,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 45
+          }
+        },
+        "gun": {
+          "name": "76 mm L-11"
+        },
+        "speed_forward": 54
+      },
+      "tier": 4,
+      "type": "mediumTank"
+    },
+    "8961": {
+      "name": "KV-13",
+      "nation": "ussr",
+      "price_credit": 1375500,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 120
+          }
+        },
+        "gun": {
+          "name": "76 mm ZiS-5"
+        },
+        "speed_forward": 50
+      },
+      "tier": 7,
+      "type": "mediumTank"
+    },
+    "9793": {
+      "name": "Somua SAu 40",
+      "nation": "france",
+      "price_credit": 110000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 36
+          }
+        },
+        "gun": {
+          "name": "75 mm APX mle. 1938"
+        },
+        "speed_forward": 37
+      },
+      "tier": 4,
+      "type": "AT-SPG"
+    },
+    "6209": {
+      "name": "AMX 50 B",
+      "nation": "france",
+      "price_credit": 6100000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 170
+          }
+        },
+        "gun": {
+          "name": "120 mm SA46"
+        },
+        "speed_forward": 65
+      },
+      "tier": 10,
+      "type": "heavyTank"
+    },
+    "1025": {
+      "name": "BT-2",
+      "nation": "ussr",
+      "price_credit": 3500,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 15
+          }
+        },
+        "gun": {
+          "name": "37 mm B-3"
+        },
+        "speed_forward": 55
+      },
+      "tier": 2,
+      "type": "lightTank"
+    },
+    "55377": {
+      "name": "A46",
+      "nation": "uk",
+      "price_credit": null,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 32
+          }
+        },
+        "gun": {
+          "name": "OQF 77 mm HV Mk. I"
+        },
+        "speed_forward": 60
+      },
+      "tier": 6,
+      "type": "lightTank"
+    },
+    "8545": {
+      "name": "Type 71",
+      "nation": "japan",
+      "price_credit": 6100000,
+      "default_profile": {
+        "armor": {
+          "hull": {
+            "front": 165
+          }
+        },
+        "gun": {
+          "name": "120 mm Gun Type 71"
+        },
+        "speed_forward": 40
+      },
+      "tier": 10,
+      "type": "heavyTank"
+    }
   }
-]
+}

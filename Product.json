@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Thunderobot 911S",
+    "price": 3199.00,
+    "imageUrl": "https://img.5element.by/import/images/ut/goods/good_34c4428f-9a51-11ee-8db3-005056012b6d/911s-core-d-jt009k00fru-noutbuk-thunderobot-2_600.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Marshall Major IV",
+    "price": 369.00,
+    "imageUrl": "https://img.5element.by/import/images/ut/goods/good_742cedc0-d4c4-11eb-bb92-0050560120e8/major-iv-bluetooth-naushniki-nakladnye-marshall-2_600.jpg"
+  },
+  {
+    "id": 3,
+    "name": "EVOLUTION Magic Remote",
+    "price": 80.00,
+    "imageUrl": "https://img.5element.by/import/images/ut/goods/good_597353bb-4740-11ee-bb92-005056012464/magic-remote-pult-distancionnogo-upravleniya-evolution-1_600.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Akko 3098N",
+    "price": 573.00,
+    "imageUrl": "https://img.5element.by/import/images/ut/goods/good_18be1954-b69f-11ed-bb90-005056012464/525886-3098n-black-amp-gold-3-models-rgb-ttc-switch-demon-igrovaya-klaviatura-akko-3_600.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Huawei MatePad SE 11",
+    "price": 549.00,
+    "imageUrl": "https://img.5element.by/import/images/ut/goods/good_c3f22a68-2f07-11ef-8db4-005056012b6d/matepad-se-11-wi-fi-ags6-w09-6gb-128gb-nebula-gray-planshet-huawei-1_600.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Apple iPhone 15 Pro Max",
+    "price": 4899.00,
+    "imageUrl": "https://img.5element.by/import/images/ut/goods/good_653e8465-18fe-11ef-8db4-005056012b6d/iphone-15-pro-max-256gb-natural-titanium-telefon-gsm-apple-mu6r3ah-a-1_600.jpg"
+  },
+  {
+    "id": 7,
+    "name": "PLANTUML P2500W",
+    "price": 389.00,
+    "imageUrl": "https://img.5element.by/import/images/ut/goods/good_1bddf948-0017-11e8-80c4-005056840c70/p2500w-printer-pantum-1_600.jpg"
+  }
+]
